@@ -11,10 +11,6 @@
   padding: 10%;
 }
 
-.hide-card {
-  display: none;
-}
-
 .cards-container {
   display: flex;
   justify-content: center;

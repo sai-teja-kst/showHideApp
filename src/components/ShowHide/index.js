@@ -36,21 +36,13 @@ class ShowHide extends Component {
             >
               Show/Hide Firstname
             </button>
-            {firstCard ? (
-              <p className="name-card"> Joe</p>
-            ) : (
-              <p className="hide-card">joe</p>
-            )}
+            {firstCard ? <p className="name-card"> Joe</p> : ''}
           </div>
           <div className="card-container">
             <button onClick={this.lastName} className="btn-style" type="button">
               Show/Hide Lastname
             </button>
-            {lastCard ? (
-              <p className="name-card">Jonas</p>
-            ) : (
-              <p className="hide-card">jones</p>
-            )}
+            {lastCard ? <p className="name-card">Jonas</p> : ''}
           </div>
         </div>
       </div>
